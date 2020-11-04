@@ -1,0 +1,147 @@
+body{
+    
+    background: url(../img/iconos.jpg)no-repeat;
+    background-size: cover;
+    background-position-x: right;
+    text-align: center;
+}
+/* INICIO HEADER */
+header .container .row{
+    width: 100%;
+}
+
+header .container{
+    margin-top: 20px;
+}
+
+#cont1{
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+header .col-md-6 img{
+    margin: 120px 0 80px;
+}
+
+header .col-md-6 .cont-text{
+    margin: 40px 0 30px 40px;
+    padding-bottom: 20%;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+header .col-md-6 .cont-text a{
+    color: #ffffff;
+}
+
+header .col-md-6 .cont-text img{
+    margin: 20px 0 0;
+}
+
+header li{
+    list-style: none;
+}
+
+header form{
+    padding: 0 40px;
+}
+
+header form button{
+    margin: 20px 0;
+}
+
+header form input{
+    width: 20%;
+    margin: 10px;
+}
+
+
+
+
+
+
+/* FIN HEADER */
+
+/* INICIO CONTRASEÑA OLVIDADA */
+
+#cont-ainer{
+    margin-top: 80px;
+}
+
+#cont-inf{
+    background: #ffffff;
+    border-radius: 10px;
+    color: #007bff;
+    padding-top: 20px;
+}
+
+#cont-inf input{
+    margin-bottom: 20px;
+}
+
+#cont-inf button{
+    margin-bottom: 20px;
+}
+
+#cont-inf2{
+    background: #ffffff;
+    margin: 40px 0;
+    border-radius: 10px;
+    padding: 60px 20px 0;
+}
+
+#cont-inf2 input{
+    margin: 10px 0;
+}
+
+#cont-inf2 button{
+    margin: 10px 0;
+}
+/* FIN CONTRASEÑA OLVIDADA */
+/* INICIO CREAR NUEVO */
+#part1{
+    background: #ffffff;
+    border-radius: 10px;
+    margin: 60px 0 30px;
+    color: #007bff;
+    padding-top: 20px;
+}
+
+#registro{
+    width: 50%;
+    background: #ffffff;
+    padding: 10px;
+}
+
+#marcar{
+    background: #ffffff;
+}
+
+#politicas{
+    background: #ffffff;
+    border-radius: 10px;
+    margin-top: 40px;
+    padding-bottom: 10px;
+}
+/* FIN CREAR NUEVO */
+
+
+/* VERSION DE MOVIL */
+@media screen and (max-width:767px) and (min-width:180px){
+    header .container{
+        margin: 20px;
+    }
+    header .col-md-6 img{
+        width: 80%;
+        margin: 60px 0;
+    }
+    #registro{
+        width: 100%;
+    }
+    #cont-inf img{
+        width: 80%;
+    }
+    #part1 img{
+        width: 80%;
+    }
+}
